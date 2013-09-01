@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="{dir=libs, include=*">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/PixBoxAndroidClient/libs/WebCachedImageView/{dir=libs, include=*.jar}" />
+      <root url="file://$PROJECT_DIR$/PixBoxAndroidClient/libs/WebCachedImageView/{dir=libs, include=*.jar}" />
+      <root url="file://$PROJECT_DIR$/PixBoxAndroidClient/libs/WebCachedImageView/{dir=libs, include=*.jar}" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

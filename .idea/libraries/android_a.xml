@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="android-a">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/PixBoxAndroidClient/libs/android-a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/PixBoxAndroidClient/libs/android-a.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
