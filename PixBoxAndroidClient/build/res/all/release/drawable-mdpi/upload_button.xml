@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:drawable="@drawable/upload_icon"></item>
-</selector>
-<!-- From: file:/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/upload_button.xml -->

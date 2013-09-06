@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PixBoxAndroidClient/PixBoxAndroidClient.iml" filepath="$PROJECT_DIR$/PixBoxAndroidClient/PixBoxAndroidClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/PixBoxAndroidClientProject.iml" filepath="$PROJECT_DIR$/PixBoxAndroidClientProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PixBoxAndroidClient/libs/WebCachedImageView/WebCachedImageView.iml" filepath="$PROJECT_DIR$/PixBoxAndroidClient/libs/WebCachedImageView/WebCachedImageView.iml" />
     </modules>
   </component>
 </project>
