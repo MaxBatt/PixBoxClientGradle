@@ -69,8 +69,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="android-async-http-1.4.3" level="project" />
     <orderEntry type="library" name="gson-2.2.2" level="project" />
-    <orderEntry type="module" module-name="WebCachedImageView" />
     <orderEntry type="library" name="android-support-v4" level="project" />
+    <orderEntry type="library" name="android-smart-image-view-1.0.0" level="project" />
   </component>
 </module>
 

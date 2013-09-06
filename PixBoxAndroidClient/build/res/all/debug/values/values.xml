@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res/values/values.xml -->
-    <declare-styleable name="WebCachedImageView">
-        <attr name="cache_mode">
-            <enum name="no_cache" value="0" />
-            <enum name="memory" value="1" />
-            <enum name="disk" value="2" />
-        </attr>
-        <attr name="memoryPercentToUse" format="float" />
-    </declare-styleable>
     <!-- From: file:/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
@@ -32,9 +23,6 @@
     <string name="err_wrong_username">For your username only letters and numbers are allowed</string>
     <string name="exporting_image">Exporting image</string>
     <string name="gallery_btn">Gallery</string>
-    <!-- From: file:/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res/values/values.xml -->
-    <string name="hello_world">Hello world!</string>
-    <!-- From: file:/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/values/strings.xml -->
     <string name="loading_online_gallery">Loading online gallery</string>
     <string name="no_images">Currently you do not have any images online. Please upload an image.</string>
     <string name="picture_cam">Take a photo with your camera</string>

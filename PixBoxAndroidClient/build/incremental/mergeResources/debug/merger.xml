@@ -1,120 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger>
 
-    <dataSet config="PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar" >
-        <source path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res" >
-            <file
-                name="ic_launcher"
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res/drawable-hdpi/ic_launcher.png"
-                qualifiers="hdpi"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res/drawable-mdpi/ic_launcher.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res/drawable-xhdpi/ic_launcher.png"
-                qualifiers="xhdpi"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res/drawable-xxhdpi/ic_launcher.png"
-                qualifiers="xxhdpi"
-                type="drawable" />
-            <file
-                name="activity_main"
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res/layout/activity_main.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="main"
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res/menu/main.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res/values/values.xml"
-                qualifiers="" >
-                <declare-styleable name="WebCachedImageView" >
-                    <attr name="cache_mode" >
-                        <enum
-                            name="no_cache"
-                            value="0" />
-                        <enum
-                            name="memory"
-                            value="1" />
-                        <enum
-                            name="disk"
-                            value="2" />
-                    </attr>
-                    <attr
-                        name="memoryPercentToUse"
-                        format="float" />
-                </declare-styleable>
-
-                <string name="action_settings" >Settings
-                </string>
-
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Light" >
-
-                    <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-                    -->
-                </style>
-
-                <string name="app_name" >WebCachedImageView
-                </string>
-
-                <dimen name="activity_horizontal_margin" >16dp
-                </dimen>
-                <dimen name="activity_vertical_margin" >16dp
-                </dimen>
-
-                <string name="hello_world" >Hello world!
-                </string>
-
-                <style
-                    name="AppTheme"
-                    parent="AppBaseTheme" >
-
-                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-                </style>
-            </file>
-            <file
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res/values-sw720dp-land/values.xml"
-                qualifiers="sw720dp-land" >
-                <dimen name="activity_horizontal_margin" >128dp
-                </dimen>
-            </file>
-            <file
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res/values-v11/values.xml"
-                qualifiers="v11" >
-
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light" >
-
-                    <!-- API 11 theme customizations can go here. -->
-                </style>
-            </file>
-            <file
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res/values-v14/values.xml"
-                qualifiers="v14" >
-
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light.DarkActionBar" >
-
-                    <!-- API 14 theme customizations can go here. -->
-                </style>
-            </file>
-        </source>
-    </dataSet>
     <dataSet config="main" >
         <source path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res" >
             <file
@@ -133,6 +19,16 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
+                name="my_pixbox"
+                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/my_pixbox.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="my_pixbox_pressed"
+                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/my_pixbox_pressed.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="pixbox_button"
                 path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/pixbox_button.xml"
                 qualifiers="mdpi"
@@ -140,6 +36,11 @@
             <file
                 name="pixbox_icon"
                 path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/pixbox_icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="take_picture"
+                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/take_picture.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -153,6 +54,16 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
+                name="take_picture_pressed"
+                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/take_picture_pressed.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="upload"
+                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/upload.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="upload_button"
                 path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/upload_button.xml"
                 qualifiers="mdpi"
@@ -160,6 +71,11 @@
             <file
                 name="upload_icon"
                 path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/upload_icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="upload_pressed"
+                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/upload_pressed.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -185,6 +101,11 @@
             <file
                 name="main"
                 path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main_copy"
+                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/layout/main_copy.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -323,41 +244,6 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
-            <file
-                name="take_picture"
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/take_picture.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="main_copy"
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/layout/main_copy.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="take_picture_pressed"
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/take_picture_pressed.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="my_pixbox"
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/my_pixbox.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="my_pixbox_pressed"
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/my_pixbox_pressed.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="upload"
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/upload.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="upload_pressed"
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/drawable-mdpi/upload_pressed.png"
-                qualifiers="mdpi"
-                type="drawable" />
         </source>
         <source path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/res/rs/debug" />
     </dataSet>
