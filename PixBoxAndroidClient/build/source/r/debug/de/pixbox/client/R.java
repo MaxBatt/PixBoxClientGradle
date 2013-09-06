@@ -40,31 +40,42 @@ containing a value of this type.
     public static final class drawable {
         public static final int border=0x7f020000;
         public static final int ic_launcher=0x7f020001;
-        public static final int pixbox_button=0x7f020002;
-        public static final int pixbox_icon=0x7f020003;
-        public static final int take_picture_button=0x7f020004;
-        public static final int take_picture_icon=0x7f020005;
-        public static final int upload_button=0x7f020006;
-        public static final int upload_icon=0x7f020007;
+        public static final int my_pixbox=0x7f020002;
+        public static final int my_pixbox_pressed=0x7f020003;
+        public static final int pixbox_button=0x7f020004;
+        public static final int pixbox_icon=0x7f020005;
+        public static final int take_picture=0x7f020006;
+        public static final int take_picture_button=0x7f020007;
+        public static final int take_picture_icon=0x7f020008;
+        public static final int take_picture_pressed=0x7f020009;
+        public static final int upload=0x7f02000a;
+        public static final int upload_button=0x7f02000b;
+        public static final int upload_icon=0x7f02000c;
+        public static final int upload_pressed=0x7f02000d;
     }
     public static final class id {
-        public static final int action_settings=0x7f040012;
+        public static final int action_settings=0x7f040017;
         public static final int disk=0x7f040002;
-        public static final int editUsername=0x7f04000f;
+        public static final int editUsername=0x7f040014;
         public static final int galleryBtn=0x7f04000a;
         public static final int imgView=0x7f040003;
+        public static final int label1=0x7f04000f;
+        public static final int label2=0x7f040011;
         public static final int mainContent=0x7f040006;
         public static final int memory=0x7f040001;
         public static final int no_cache=0x7f040000;
-        public static final int okBtn=0x7f040011;
-        public static final int progressBar1=0x7f04000e;
+        public static final int okBtn=0x7f040016;
+        public static final int progressBar1=0x7f040013;
+        public static final int space1=0x7f04000e;
+        public static final int space2=0x7f040010;
         public static final int tableRow1=0x7f040008;
         public static final int tableRow2=0x7f04000b;
         public static final int takePictureBtn=0x7f040009;
+        public static final int textView=0x7f040012;
         public static final int textView1=0x7f040005;
         public static final int tvError=0x7f04000d;
         public static final int tvUploadInfo=0x7f040004;
-        public static final int tvUserResult=0x7f040010;
+        public static final int tvUserResult=0x7f040015;
         public static final int tvUserWelcome=0x7f040007;
         public static final int uploadImgBtn=0x7f04000c;
     }
@@ -74,7 +85,8 @@ containing a value of this type.
         public static final int image_row=0x7f030002;
         public static final int main=0x7f030003;
         public static final int main_activity=0x7f030004;
-        public static final int register_activity=0x7f030005;
+        public static final int main_copy=0x7f030005;
+        public static final int register_activity=0x7f030006;
     }
     public static final class menu {
         public static final int main=0x7f080000;

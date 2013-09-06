@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/tvUserWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Welcome to PicBox!"
+            android:textSize="24sp"
+            android:layout_gravity="center"/>
+
+    <RelativeLayout
+            android:layout_marginTop="45dp"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="left|center_vertical">
+
+        <Button
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/takePictureBtn"
+                android:background="@drawable/take_picture"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/space1"/>
+
+        <Button
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/galleryBtn"
+                android:background="@drawable/my_pixbox"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/space1"/>
+
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/space1"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="left|center_vertical"
+
+            >
+
+        <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/label1"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/space2"
+                android:text="Take picture!"
+                android:layout_alignParentLeft="true"
+                android:gravity="right"
+                android:textSize="10dp"/>
+
+        <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/label2"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/space2"
+                android:text="My PixBox"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:textSize="10dp"/>
+
+
+
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/space2"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left|center_vertical"
+
+            >
+
+
+        <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imgView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="23dp"/>
+
+        <Button
+                android:id="@+id/uploadImgBtn"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_below="@+id/imgView"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/upload"
+                android:onClick="onUploadImgBtnClicked"
+                android:layout_marginTop="30dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload!"
+                android:id="@+id/textView"
+                android:layout_below="@+id/uploadImgBtn"
+                android:layout_centerHorizontal="true"
+                android:textSize="10dp"/>
+
+        <TextView
+                android:id="@+id/tvError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/uploadImgBtn"
+                android:gravity="center"
+                android:layout_marginTop="60dp"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout><!-- From: file:/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/layout/main_copy.xml -->
