@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:drawable="@drawable/pixbox_icon"></item>
+    <item  android:drawable="@drawable/my_pixbox_pressed" 
+    android:state_pressed="true"/> 
+    <item android:drawable="@drawable/my_pixbox"></item>
 </selector>

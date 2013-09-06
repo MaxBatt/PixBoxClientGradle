@@ -32,11 +32,14 @@
     <string name="err_wrong_username">For your username only letters and numbers are allowed</string>
     <string name="exporting_image">Exporting image</string>
     <string name="gallery_btn">Gallery</string>
+    <!-- From: file:/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res/values/values.xml -->
     <string name="hello_world">Hello world!</string>
+    <!-- From: file:/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/values/strings.xml -->
     <string name="loading_online_gallery">Loading online gallery</string>
     <string name="no_images">Currently you do not have any images online. Please upload an image.</string>
     <string name="picture_cam">Take a photo with your camera</string>
     <string name="picture_gallery">Choose a picture from Gallery</string>
+    <string name="register_button">Create user</string>
     <string name="send_image">Send</string>
     <string name="take_picture_btn">Take picture!</string>
     <string name="type_in_user">Type in a username</string>

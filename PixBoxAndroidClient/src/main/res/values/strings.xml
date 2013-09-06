@@ -3,7 +3,7 @@
 
     <string name="app_name">PixboxClient</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="register_button">Create user</string>
     <string name="create_account">Create a PixBox account</string>
     <string name="type_in_user">Type in a username</string>
     <string name="err_general">An error occurred. </string>

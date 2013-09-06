@@ -67,12 +67,11 @@
                     -->
                 </style>
 
-                <dimen name="activity_horizontal_margin" >16dp
-                </dimen>
-
                 <string name="app_name" >WebCachedImageView
                 </string>
 
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
                 <dimen name="activity_vertical_margin" >16dp
                 </dimen>
 
@@ -189,11 +188,6 @@
                 qualifiers=""
                 type="layout" />
             <file
-                name="main_activity"
-                path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/layout/main_activity.xml"
-                qualifiers=""
-                type="layout" />
-            <file
                 name="register_activity"
                 path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/layout/register_activity.xml"
                 qualifiers=""
@@ -214,33 +208,33 @@
             <file
                 path="/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/values/strings.xml"
                 qualifiers="" >
-                <string name="err_upload" >Failed to upload image. No connection to Server.\n Please check your connection and try again.
+                <string name="send_image" >Send
                 </string>
                 <string name="upload_complete" >Your picture has been successfully uploaded.\nView the image in your online gallery or upload another picture.
                 </string>
-                <string name="send_image" >Send
+                <string name="err_upload" >Failed to upload image. No connection to Server.\n Please check your connection and try again.
                 </string>
                 <string name="action_settings" >Settings
                 </string>
                 <string name="uploading_image" >Uploading image
                 </string>
-                <string name="uploaded_label" >Uploaded:
-                </string>
                 <string name="picture_gallery" >Choose a picture from Gallery
                 </string>
+                <string name="uploaded_label" >Uploaded:
+                </string>
                 <string name="gallery_btn" >Gallery
+                </string>
+                <string name="register_button" >Create user
                 </string>
                 <string name="cancel" >Cancel
                 </string>
                 <string name="err_wrong_username" >For your username only letters and numbers are allowed
                 </string>
-                <string name="no_images" >Currently you do not have any images online. Please upload an image.
-                </string>
                 <string name="btn_upload_img" >Upload image!
                 </string>
-                <string name="err_connect" >Failed to connect to the Server.\n Please check your connection and try again.
+                <string name="no_images" >Currently you do not have any images online. Please upload an image.
                 </string>
-                <string name="hello_world" >Hello world!
+                <string name="err_connect" >Failed to connect to the Server.\n Please check your connection and try again.
                 </string>
                 <string name="err_no_username" >Please type in a username
                 </string>
@@ -260,9 +254,9 @@
                 </string>
                 <string name="err_no_internet" >You currently have no connection to the internet.\nPlease check connection and restart the App.
                 </string>
-                <string name="exporting_image" >Exporting image
-                </string>
                 <string name="context_menu_title" >Image
+                </string>
+                <string name="exporting_image" >Exporting image
                 </string>
                 <string name="copy_url" >Copy public URL to clipboard
                 </string>
@@ -274,9 +268,9 @@
                 </string>
                 <string name="delete" >Delete
                 </string>
-                <string name="add_photo_dialog" >Take picture
-                </string>
                 <string name="url_copied" >A public URL of the image has been copied to clipboard
+                </string>
+                <string name="add_photo_dialog" >Take picture
                 </string>
             </file>
             <file

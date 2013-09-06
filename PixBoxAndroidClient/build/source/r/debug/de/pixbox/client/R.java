@@ -54,7 +54,7 @@ containing a value of this type.
         public static final int upload_pressed=0x7f02000d;
     }
     public static final class id {
-        public static final int action_settings=0x7f040017;
+        public static final int action_settings=0x7f040016;
         public static final int disk=0x7f040002;
         public static final int editUsername=0x7f040014;
         public static final int galleryBtn=0x7f04000a;
@@ -64,29 +64,27 @@ containing a value of this type.
         public static final int mainContent=0x7f040006;
         public static final int memory=0x7f040001;
         public static final int no_cache=0x7f040000;
-        public static final int okBtn=0x7f040016;
         public static final int progressBar1=0x7f040013;
+        public static final int registerButton=0x7f040015;
         public static final int space1=0x7f04000e;
         public static final int space2=0x7f040010;
         public static final int tableRow1=0x7f040008;
         public static final int tableRow2=0x7f04000b;
         public static final int takePictureBtn=0x7f040009;
-        public static final int textView=0x7f040012;
         public static final int textView1=0x7f040005;
         public static final int tvError=0x7f04000d;
         public static final int tvUploadInfo=0x7f040004;
-        public static final int tvUserResult=0x7f040015;
         public static final int tvUserWelcome=0x7f040007;
         public static final int uploadImgBtn=0x7f04000c;
+        public static final int uploadLabel=0x7f040012;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int gallery_activity=0x7f030001;
         public static final int image_row=0x7f030002;
         public static final int main=0x7f030003;
-        public static final int main_activity=0x7f030004;
-        public static final int main_copy=0x7f030005;
-        public static final int register_activity=0x7f030006;
+        public static final int main_copy=0x7f030004;
+        public static final int register_activity=0x7f030005;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -112,20 +110,25 @@ containing a value of this type.
         public static final int err_wrong_username=0x7f06000f;
         public static final int exporting_image=0x7f060010;
         public static final int gallery_btn=0x7f060011;
+        /**  From: file:/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/build/exploded-bundles/PixBoxAndroidClientProjectPixBoxAndroidClientLibsWebCachedImageViewUnspecified.aar/res/values/values.xml 
+         */
         public static final int hello_world=0x7f060012;
+        /**  From: file:/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/values/strings.xml 
+         */
         public static final int loading_online_gallery=0x7f060013;
         public static final int no_images=0x7f060014;
         public static final int picture_cam=0x7f060015;
         public static final int picture_gallery=0x7f060016;
-        public static final int send_image=0x7f060017;
-        public static final int take_picture_btn=0x7f060018;
-        public static final int type_in_user=0x7f060019;
-        public static final int upload_complete=0x7f06001a;
-        public static final int uploaded_label=0x7f06001b;
-        public static final int uploading_image=0x7f06001c;
-        public static final int url_copied=0x7f06001d;
-        public static final int user_welcome_text=0x7f06001e;
-        public static final int wait=0x7f06001f;
+        public static final int register_button=0x7f060017;
+        public static final int send_image=0x7f060018;
+        public static final int take_picture_btn=0x7f060019;
+        public static final int type_in_user=0x7f06001a;
+        public static final int upload_complete=0x7f06001b;
+        public static final int uploaded_label=0x7f06001c;
+        public static final int uploading_image=0x7f06001d;
+        public static final int url_copied=0x7f06001e;
+        public static final int user_welcome_text=0x7f06001f;
+        public static final int wait=0x7f060020;
     }
     public static final class style {
         /**  From: file:/Users/beatmax/AndroidStudioProjects/PixBoxAndroidClientProject/PixBoxAndroidClient/src/main/res/values/styles.xml 

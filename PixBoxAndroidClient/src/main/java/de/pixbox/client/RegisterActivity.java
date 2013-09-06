@@ -32,9 +32,9 @@ import android.widget.TextView;
  */
 public class RegisterActivity extends Activity {
 
-	private EditText et;
-	private Button btn;
-	private TextView tv;
+	private EditText editUsername;
+	private Button registerBtn;
+	private TextView tvError;
 	private ProgressBar pb;
 	public static final String PREFS = "PIXBOX_PREFS";
 
@@ -48,19 +48,19 @@ public class RegisterActivity extends Activity {
 
 		setContentView(R.layout.register_activity);
 
-		et = (EditText) findViewById(R.id.editUsername);
-		btn = (Button) findViewById(R.id.okBtn);
-		tv = (TextView) findViewById(R.id.tvUserResult);
+		editUsername = (EditText) findViewById(R.id.editUsername);
+		registerBtn = (Button) findViewById(R.id.registerButton);
+		tvError = (TextView) findViewById(R.id.tvError);
 		pb = (ProgressBar) findViewById(R.id.progressBar1);
 		pb.setVisibility(View.GONE);
 
-		btn.setEnabled(false);
+		registerBtn.setEnabled(false);
 
 		// Listener for any changes in the EditTest for Username
 		// checks if username only contains letters and numbers
 		// checks if username is empty
 
-		et.addTextChangedListener(new TextWatcher() {
+		editUsername.addTextChangedListener(new TextWatcher() {
 			@Override
 			public void onTextChanged(CharSequence s, int start, int before,
 					int count) {
@@ -80,21 +80,21 @@ public class RegisterActivity extends Activity {
 			public void afterTextChanged(Editable s) {
 
 				// No username is typed in
-				if (usernameIsEmpty(et)) {
-					btn.setEnabled(false);
-					tv.setText(getResources().getString(
+				if (usernameIsEmpty(editUsername)) {
+					registerBtn.setEnabled(false);
+					tvError.setText(getResources().getString(
 							R.string.err_no_username));
 				} else {
-					String username = et.getText().toString();
+					String username = editUsername.getText().toString();
 
 					// username got invalid chars
 					if (!username.matches("^[a-zA-Z0-9]+$")) {
-						btn.setEnabled(false);
-						tv.setText(getResources().getString(
+						registerBtn.setEnabled(false);
+						tvError.setText(getResources().getString(
 								R.string.err_wrong_username));
 					} else {
-						btn.setEnabled(true);
-						tv.setText("");
+						registerBtn.setEnabled(true);
+						tvError.setText("");
 					}
 
 				}
@@ -130,7 +130,7 @@ public class RegisterActivity extends Activity {
 
 		try {
 
-			String user = URLEncoder.encode(et.getText().toString(), "UTF-8");
+			String user = URLEncoder.encode(editUsername.getText().toString(), "UTF-8");
 			
 //			Send HTTP request for creating a user with given username 
 			RestClient.get("user/new/?u=" + user, null,
@@ -167,7 +167,7 @@ public class RegisterActivity extends Activity {
 //							If response is not a valid JSON string, it is an error message. Show it!
 							} catch (Exception e) {
 								System.out.println(e);
-								tv.setText(getResources().getString(
+								tvError.setText(getResources().getString(
 										R.string.err_general)
 										+ response);
 							}
@@ -178,7 +178,7 @@ public class RegisterActivity extends Activity {
 						public void onFailure(Throwable error, String content) {
 							// Do something with the response
 							pb.setVisibility(View.GONE);
-							tv.setText("An error occured: " + content);
+							tvError.setText("An error occured: " + content);
 						}
 					});
 
